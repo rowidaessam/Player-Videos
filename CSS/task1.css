@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    width: 80%;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px auto;
+    border: 4px solid rgb(99, 99, 144);
+    box-shadow: rgb(231, 148, 250) -5px -5px 10px, rgb(231, 148, 250) 5px 5px 10px, rgb(252, 218, 252) 10px 10px 100px inset;
+    border-radius: 8%;
+    height: 90%;
+    transition: all 2s ease-in-out;
+    
+
+}
+
+#internal {
+    display: -webkit-box;
+    border: 1px solid black;
+    margin: 30px;
+    border-radius: 8%;
+    height: 90%;
+    transition: all 2s ease-in-out;
+
+
+
+}
+
+#section {
+    width: 40%;
+    border: 2px solid black;
+    margin: 25px;
+    padding: 5px;
+    -webkit-box-flex: 1.5;
+    box-shadow: rgb(223, 97, 252) -5px -5px 10px, rgb(194, 180, 194) 10px 10px 100px inset;
+    height: 90%;
+    overflow: auto;
+    border-radius: 8%;
+
+
+}
+
+#side {
+    width: 10%;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 25px;
+    -webkit-box-flex: 1;
+    height: 90%;
+    border-radius: 8%;
+    box-shadow: rgb(223, 97, 252) -5px -5px 10px, rgb(194, 180, 194) 10px 10px 100px inset;
+
+}
+.container
+{
+    width: 80%;
+    height: 90%;
+    border: 2px solid plum;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.container:hover{
+    background-color: lightblue;
+}
+.vdo{
+    width: 40%;
+    height: 7%;
+    border: 2px solid purple;
+    border-radius: 10%;
+    margin: 6px;
+    padding: 2px;
+    text-align: center;
+    margin-left: 60px;
+    transition:all 2s ease-in-out;
+    perspective: 500px;
+    color: black;
+}
+
+.vdo:hover{
+    transform: rotate(360deg);
+    transform-origin: 50% 90%;
+    background-color: mistyrose;
+    }
+.vdo:active{
+    background-color: rgb(54, 111, 130);
+}
+.MeSis{
+    width: 84%;
+    height: 84%;
+    margin-top: 30px;
+    margin-left: 70px;
+    border-radius: 15%;
+    border: 2px solid black;
+
+}
+.MeSis:hover{
+    width: 98%;
+    height: 95%;
+    margin: 0px auto;
+}
